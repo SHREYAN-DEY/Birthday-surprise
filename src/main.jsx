@@ -10,7 +10,7 @@ import AppProviders from './context/AppProviders.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/birthday-surprise/">
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       {/* reducedMotion="user" makes every Motion animation respect the device setting */}
       <MotionConfig reducedMotion="user">
         <AppProviders>
