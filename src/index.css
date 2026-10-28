@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@import "./styles/animations.css";
+@import "./styles/scrapbook.css";
+
+@theme {
+  --color-sky-soft: #dcefff;
+  --color-sky-mid: #a9d4f5;
+  --color-sky-deep: #3b6fa0;
+  --color-night: #1d2b4a;
+  --color-cloud: #ffffff;
+  --color-blush: #ffd9e2;
+  --color-heart: #c94f6d;
+  --color-sun: #f7c948;
+  --color-sun-deep: #d9972b;
+  --color-leaf: #6aa56a;
+  --color-ink: #3a4a63;
+  --color-paper: #fffaf0;
+  --color-paper-edge: #efe2c8;
+
+  --font-body: "Quicksand Variable", system-ui, sans-serif;
+  --font-hand: "Caveat", "Comic Sans MS", cursive;
+
+  --animate-float: float 7s ease-in-out infinite;
+  --animate-twinkle: twinkle 2.8s ease-in-out infinite;
+  --animate-blink: blink 5s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0) rotate(var(--tilt, 0deg)); }
+    50% { transform: translateY(-10px) rotate(var(--tilt, 0deg)); }
+  }
+  @keyframes twinkle {
+    0%, 100% { opacity: 0.25; transform: scale(0.7); }
+    50% { opacity: 1; transform: scale(1.1); }
+  }
+  @keyframes blink {
+    0%, 92%, 100% { transform: scaleY(1); }
+    95% { transform: scaleY(0.1); }
+  }
+}
+
+html, body, #root { min-height: 100%; }
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background: var(--color-sky-soft);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-sky-deep);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

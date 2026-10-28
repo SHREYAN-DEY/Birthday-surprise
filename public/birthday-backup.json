@@ -1,0 +1,363 @@
+{
+  "app": "birthday-surprise",
+  "version": 1,
+  "exportedAt": "2026-10-27T19:21:52.323Z",
+  "data": {
+    "schemaVersion": 1,
+    "general": {
+      "pageTitle": "Happy Birthday 💕",
+      "couplePhoto": "/images/profile/IMG_20260723_085606.jpg",
+      "couplePhotoCaption": ""
+    },
+    "her": {
+      "name": "Diya",
+      "nickname": "Prerana",
+      "birthday": "2005-11-01",
+      "age": "21",
+      "favoriteColor": "Pink",
+      "favoriteCharacter": "Cinnamoroll",
+      "favoriteFlower": "Sunflower",
+      "favoriteFood": "Chocolate",
+      "favoriteSong": "Barbad",
+      "description": "Certified ranter, my personal english tutor, PHD in complaining, crying Goddess, and specially an cute IDIOT",
+      "profileImage": "/images/profile/IMG_20260831_122133.jpg",
+      "profileUsage": {
+        "opening": true,
+        "memories": true,
+        "finalReveal": true,
+        "finalSurprise": true
+      }
+    },
+    "me": {
+      "name": "Mon",
+      "nickname": "Shreyan",
+      "relationshipTitle": "just friends",
+      "description": "Her ragebaiter, source of all her problems, her companion, partner in crime"
+    },
+    "mainMessage": "Happy Birthday to my absolute favorite person, [HER_NAME]! 🌻💛\n\nFrom the moment you came into my life, everything became so much brighter and warmer. You have this incredible way of making ordinary days feel like pure magic. Today is all about celebrating you—your radiant smile, your gentle heart, and all the little things that make you so uniquely wonderful.\n\nI hope this little world I made for you brings a huge smile to your face, just like you bring to mine every single day. No matter where life takes us, you will always be my favorite adventure and my safest home.\n\nThank you for being you, and for being mine. Let’s make this year your best one yet.\n\nWith all my love,\n\n[MY_NAME]",
+    "letter": {
+      "opening": "",
+      "main": "Every day with you feels like a little piece of sunshine.",
+      "favoriteMemory": "My favouvrite memory of us is the day you lied to your parents and we went to see movie.",
+      "wish": "Happy Birthday to my favorite human! 🌻",
+      "ending": "",
+      "signoff": "Shreyan"
+    },
+    "questions": [
+      {
+        "id": "q0",
+        "question": "Do you know how special you are?",
+        "yesText": "YES ❤️",
+        "noText": "NO 🙈",
+        "successMessage": "Good. Keep knowing that.",
+        "noMessages": [
+          "Nice try.",
+          "Are you sure?",
+          "Nope 😂",
+          "Try again.",
+          "You thought I'd let you click me?"
+        ]
+      },
+      {
+        "id": "q1",
+        "question": "Do you know how cute you are?",
+        "yesText": "YES ❤️",
+        "noText": "NO 🙈",
+        "successMessage": "Correct answer.",
+        "noMessages": [
+          "Nice try.",
+          "Are you sure?",
+          "Nope 😂",
+          "Try again.",
+          "You thought I'd let you click me?"
+        ]
+      },
+      {
+        "id": "q2",
+        "question": "Do you agree that you deserve an amazing birthday?",
+        "yesText": "YES 🎂",
+        "noText": "NO 😐",
+        "successMessage": "Exactly. Amazing it is.",
+        "noMessages": [
+          "Nice try.",
+          "Are you sure?",
+          "Nope 😂",
+          "Try again.",
+          "You thought I'd let you click me?"
+        ]
+      },
+      {
+        "id": "q3",
+        "question": "Will you accept a virtual sunflower bouquet?",
+        "yesText": "YES 🌻",
+        "noText": "NO",
+        "successMessage": "Great, because it is already on its way.",
+        "noMessages": [
+          "Nice try.",
+          "Are you sure?",
+          "Nope 😂",
+          "Try again.",
+          "You thought I'd let you click me?"
+        ]
+      },
+      {
+        "id": "q4",
+        "question": "Who has better taste?",
+        "yesText": "You 😌",
+        "noText": "Obviously me 😎",
+        "successMessage": "I knew you would say that.",
+        "noMessages": [
+          "Nice try.",
+          "Are you sure?",
+          "Nope 😂",
+          "Try again.",
+          "You thought I'd let you click me?"
+        ]
+      },
+      {
+        "id": "q6",
+        "question": "Can I make one birthday wish for you?",
+        "yesText": "YES ❤️",
+        "noText": "NO",
+        "successMessage": "Done. I will not tell you what it was.",
+        "noMessages": [
+          "Nice try.",
+          "Are you sure?",
+          "Nope 😂",
+          "Try again.",
+          "You thought I'd let you click me?"
+        ]
+      },
+      {
+        "id": "d532a72a-3eb6-4bec-bd67-5d964bf71b37",
+        "question": "Are you ready to admit that I'm the luckiest guy alive for having you?",
+        "yesText": "YES ❤️",
+        "noText": "NO 🙈",
+        "successMessage": "Nice try !! You thought you can tap no ? HAHAH",
+        "noMessages": [
+          "Looking for \"NO\" huh ?",
+          "Look there !!",
+          "HAHAH !!!"
+        ]
+      },
+      {
+        "id": "1627b2da-a8f5-48cb-be36-3f0daa5cf586",
+        "question": "Do you promise to keep smiling and having the best birthday ever?",
+        "yesText": "YES ❤️",
+        "noText": "NO 😔",
+        "successMessage": "You deserve the best birthday.",
+        "noMessages": [
+          "Humble huh ?",
+          "LOL !",
+          "Tap it "
+        ]
+      },
+      {
+        "id": "5692f152-224f-4f03-8148-585a3b635153",
+        "question": "Are you ready for your next surprise ?",
+        "yesText": "YES ❤️",
+        "noText": "NO 🙈",
+        "successMessage": "Lets see how brave you are",
+        "noMessages": [
+          "You are not ?",
+          "AWWW 🥺 You cant tap no ?",
+          "...",
+          "Catch it !!",
+          "Sorry no way backward"
+        ]
+      }
+    ],
+    "memories": [
+      {
+        "id": "ef2de353-3e8a-4612-83e1-1482df89bc9b",
+        "image": "/images/memories/file_000000000b5c71fdb1fedf30a9926bc9.png",
+        "title": "Paparazzi Moment",
+        "caption": "Us being famous",
+        "date": "",
+        "location": "College",
+        "personalNote": "Do you remember how people used to take pics of us ?"
+      },
+      {
+        "id": "9a766d4a-6d55-487e-92d5-1a34252fedbc",
+        "image": "/images/memories/IMG_20260417_110937_685.webp",
+        "title": "Icecream date",
+        "caption": "",
+        "date": "",
+        "location": "After college",
+        "personalNote": "You brought me icecream, I still have the wrapper of it. It was amul tripple chocolate"
+      },
+      {
+        "id": "ce1ea79c-cb09-45f9-bd1b-47d1d4ac50db",
+        "image": "/images/memories/IMG_20260517_114007.jpg",
+        "title": "Us promising",
+        "caption": "",
+        "date": "2026-05-15",
+        "location": "College",
+        "personalNote": "We promised to stick together"
+      },
+      {
+        "id": "fadc7280-7bd5-46e7-878c-31d5ae5e7fed",
+        "image": "/images/memories/IMG_20260616_231235.png",
+        "title": "First kiss",
+        "caption": "",
+        "date": "",
+        "location": "College library",
+        "personalNote": "That day our first kiss happend. Forgive me for being bad with date but vividly remember that day. We our kiss was really passionate"
+      },
+      {
+        "id": "eb2346df-7fad-46da-a03d-c06a5f2e497b",
+        "image": "/images/memories/IMG_20260723_095703.jpg",
+        "title": "Movie date",
+        "caption": "",
+        "date": "",
+        "location": "Junction mall",
+        "personalNote": "We went to see The Odyssey. That we really enjoyed"
+      },
+      {
+        "id": "c8281a6a-e226-42c7-ba2f-29ac8f457f83",
+        "image": "/images/memories/IMG_20260723_140516.jpg",
+        "title": "",
+        "caption": "Remember this pic ?",
+        "date": "",
+        "location": "Junction mall",
+        "personalNote": "That soup was good right ?"
+      },
+      {
+        "id": "b5036fbe-8038-43d1-bb1b-78afbb8101ea",
+        "image": "/images/memories/IMG_20260825_162120.jpg",
+        "title": "Us ?? 🙈",
+        "caption": "",
+        "date": "",
+        "location": "Smk",
+        "personalNote": "Isshh !! That day !"
+      },
+      {
+        "id": "971b413b-7207-4920-9ec2-af470a77f7fa",
+        "image": "/images/memories/IMG_20261022_141423.jpg",
+        "title": "This puja",
+        "caption": "",
+        "date": "",
+        "location": "Bnk",
+        "personalNote": ""
+      },
+      {
+        "id": "16919d5c-8269-4dcd-8ed2-2716f477b269",
+        "image": "/images/memories/IMG-20261024-WA0002.jpg",
+        "title": "Me trying burger for the first time",
+        "caption": "",
+        "date": "",
+        "location": "Bnk",
+        "personalNote": "I liked the burger"
+      }
+    ],
+    "reasons": [
+      {
+        "id": "r1",
+        "text": "Your smile.",
+        "image": "/images/memories/IMG_20260825_154822.jpg"
+      },
+      {
+        "id": "r2",
+        "text": "Your kindness.",
+        "image": "/images/memories/IMG_20260423_075004_105.jpg"
+      },
+      {
+        "id": "r3",
+        "text": "The way you make boring days fun by being quirky",
+        "image": "/images/memories/IMG_20260723_142112.jpg"
+      }
+    ],
+    "flowers": [
+      {
+        "id": "f1",
+        "message": "For all the little moments.",
+        "image": "/images/memories/IMG_20260516_054826.png"
+      },
+      {
+        "id": "f2",
+        "message": "For every time you made me smile.",
+        "image": "/images/memories/2f9f8373c02a4c44872921e68906d051.jpg"
+      },
+      {
+        "id": "14b1760a-f06b-407b-8ad0-50065e3a47f2",
+        "message": "For all the times you made me angry",
+        "image": "/images/memories/file_00000000005c71fab84b4032a0597bf8.png"
+      },
+      {
+        "id": "f3",
+        "message": "For the memories.",
+        "image": "/images/memories/Picsart_26-04-16_10-29-46-140.jpg"
+      },
+      {
+        "id": "f4",
+        "message": "For everything that's still waiting for us.",
+        "image": "/images/memories/IMG_20260818_143003.jpg"
+      },
+      {
+        "id": "f5",
+        "message": "For you.",
+        "image": "/images/memories/IMG-20260408-WA0003.jpg"
+      }
+    ],
+    "secrets": [
+      {
+        "id": "s1",
+        "trigger": "heart",
+        "message": "A heart was hiding something, just waiting for you to find it.",
+        "image": "/images/memories/IMG-20260312-WA0021.jpg"
+      },
+      {
+        "id": "s2",
+        "trigger": "gift",
+        "message": "It said do not open. You opened it anyway. That is exactly why I like you.",
+        "image": "/images/memories/IMG-20260312-WA0024.jpg"
+      },
+      {
+        "id": "s3",
+        "trigger": "cloud",
+        "message": "Even clouds have secrets. This one is: you are easy to be happy around.",
+        "image": "/images/memories/IMG-20260402-WA0030.jpg"
+      },
+      {
+        "id": "s4",
+        "trigger": "star",
+        "message": "Make a wish. I already made one for you.",
+        "image": "/images/memories/IMG-20260402-WA0031.jpg"
+      },
+      {
+        "id": "s5",
+        "trigger": "sunflower",
+        "message": "Sunflowers turn toward the light. So do I, when you walk in.",
+        "image": "/images/memories/Screenshot 2026-07-21 002214.png"
+      },
+      {
+        "id": "s6",
+        "trigger": "mascot",
+        "message": "I only look small. I carry a lot of secrets.",
+        "image": "/images/memories/IMG-20260414-WA0002.jpg"
+      },
+      {
+        "id": "s7",
+        "trigger": "final",
+        "message": "You stayed until the end. Thank you for that.",
+        "image": "/images/memories/IMG_20260423_075154_748.jpg"
+      }
+    ],
+    "importantDates": [],
+    "finalSurprise": {
+      "title": "Dont Click",
+      "message": "Why so angry girl !! Kou bokeche ??",
+      "image": "/images/memories/Screenshot 2026-07-21 002214.png"
+    },
+    "music": {
+      "src": "/music/leberch-happy-birthday-581704.mp3"
+    },
+    "theme": {
+      "preset": "cinnamoroll",
+      "primary": "#c94f6d",
+      "secondary": "#a9d4f5",
+      "accent": "#f7c948",
+      "background": "#dcefff"
+    }
+  }
+}
