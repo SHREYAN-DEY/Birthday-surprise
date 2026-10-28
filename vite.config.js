@@ -4,12 +4,13 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  server: {
-    // In dev, the API is proxied so cookies stay "same-site" with the page
-    proxy: {
-      '/api': 'http://localhost:5000',
-      '/uploads': 'http://localhost:5000',
-    },
+  // If you are deploying to GitHub Pages under a subpath (e.g., repository name), 
+  // change base to '/your-repo-name/'. If using Vercel or Netlify, keep it as '/'
+  base: '/',
+  build: {
+    chunkSizeWarningLimit: 700,
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false,
   },
-  build: { chunkSizeWarningLimit: 700 },
 })
